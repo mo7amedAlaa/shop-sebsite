@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    box-shadow:1px 1px 10px silver;
+    text-align: center;
+    border-radius: 30px;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+img{
+    width: 350px;
+    height: 330px;
+}
+input{
+    width: 50%;
+    margin-bottom: 10px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+input:hover{
+    border-bottom: 1px solid #8a65bb;
+}
+button{
+    border: none;
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #1Ac15c;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.product{
+    
+    position: absolute;
+    left: 190px;
+}
+.choose{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #1f87cf;
+    color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: tomato;
+}
+a:hover{
+    color: crimson;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
+

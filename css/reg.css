@@ -1,0 +1,85 @@
+body{
+    background-image: url("../images/register.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.reg{
+    position: relative;
+    top: 225px;
+    left: 950px;
+    width: 380px;
+    height: 350px;
+    border-radius: 13px;
+    opacity: 0.8;
+    background-color: white;
+    text-align: center;
+    
+}
+
+input[type="text"],input[type="email"]
+,input[type="password"]{
+    
+    padding: 10px 15px 5px 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    outline: none;
+    background: none;
+    border: 1px solid #6345b4;
+}
+
+.btn{
+    background: none;
+    outline: none;
+    border: none;
+    background-color:#191989 ;
+    padding: 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 12px;
+    width: 182px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #44267d;
+}
+p{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
+a{
+    color: #191989;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: #44267d;
+}
+i{
+    color: #191989;
+}
+.icons{
+    position: absolute;
+    left: 70px;
+    top: 27px;
+}
+.ic{
+    position: absolute;
+    left: 70px;
+    top: 85px;
+}
+.icon{
+    position: absolute;
+    left: 70px;
+    top: 140px;
+}
+.ico{
+    position: absolute;
+    left: 70px;
+    top: 195px;
+}

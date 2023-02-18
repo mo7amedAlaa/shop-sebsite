@@ -1,0 +1,77 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.main{
+    width: 210px;
+    float: right;
+    margin-right: 50px;
+} 
+.card{
+    display: grid;
+    grid-template-rows: repeat(auto-fill,minmax(10px,1fr));
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 10px silver;
+    height: 300px;
+    max-width: 300px; 
+}
+.card_img{
+    max-width: 150px;
+    position: relative;
+    left: 45px;
+}
+.title{
+    text-align: center;
+    position: relative;
+    left: 3px;
+    top: 177px;
+}
+.card-body{
+    min-width :200px; ;
+}
+h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin:5px 0 10px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:5px ;
+}
+a{
+    text-decoration: none;
+    position: relative;
+    left: 0px;
+    bottom: 12px;
+}
+.delete{
+    background-color: #da2323;
+    padding: 10px 20px 10px ;
+    margin-right: 26px;
+    margin-left: 6px;
+    color: white;
+    border-radius: 10px;
+}
+
+.modify{
+    background-color: #1b8e77;
+    padding: 10px 20px 10px ;
+    color: white;
+    border-radius: 10px;
+} 
+.buttom{
+    position: relative;
+    left: 15px;
+    top: 187px;
+}
+.delete:hover{
+    background-color: #c13333;
+}
+.modify:hover{
+    background-color: #187260;
+}

@@ -1,0 +1,52 @@
+body{
+    background-image: url("../images/login.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.login{
+    position: relative;
+    top: 270px;
+    left: 950px;
+}
+input{
+    padding: 10px 15px 5px 60px;
+    margin-top: 20px;
+    border-radius: 30px;
+    outline: none;
+    background: none;
+    border: 1px solid #eee;
+}
+.icons{
+    position: absolute;
+    left: 20px;
+    top: 84px;
+}
+.icon{
+    position: absolute;
+    left: 17px;
+    top: 29px;
+}
+i{
+    color: blueviolet;
+}
+.btn{
+    outline: none;
+    border: none;
+    background: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+p{
+    font-size: 18px;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
